@@ -20,7 +20,7 @@ const Header: React.FC<IHeaderProps> = ({ handleBackPage }) => {
     <S.Header>
       <S.StartContainer>
         <S.Brand>
-          <S.BrandImage src={popcornImage} />
+          <S.BrandImage src={popcornImage} alt="Purple popcorn bucket" />
           <S.BrandText>Junto Filmes</S.BrandText>
         </S.Brand>
         <S.BackButton hasBackPage={!!handleBackPage} onClick={handleBackPage}>
@@ -33,7 +33,7 @@ const Header: React.FC<IHeaderProps> = ({ handleBackPage }) => {
           <AiFillHeart />
         </S.FavoriteButton>
         <S.UserName>John doe</S.UserName>
-        <S.UserButtonImage src={userIcon} />
+        <S.UserButtonImage src={userIcon} alt="User image" />
       </S.UserContainer>
     </S.Header>
   );

@@ -118,7 +118,7 @@ const MovieDetails: React.FC = () => {
           >
             <AiFillHeart />
           </S.FavoriteButton>
-          <S.Image src={movie?.Poster} />
+          <S.Image src={movie?.Poster} alt="Movie poster" />
           <S.GeneralInfo>
             <span>Language:</span>
             {movie?.Language}

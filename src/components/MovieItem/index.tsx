@@ -30,6 +30,7 @@ const MovieItem: React.FC<IMovieProps> = ({
         src={
           Poster !== 'N/A' && Poster !== undefined ? Poster : popcornImageRed
         }
+        alt="Movie poster"
       />
 
       <S.MovieListItemTitle>{Title}</S.MovieListItemTitle>

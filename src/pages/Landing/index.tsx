@@ -15,15 +15,15 @@ const Landing: React.FC = () => {
   return (
     <S.Wrapper>
       <S.Container>
-        <S.Title>Juntos Filmes</S.Title>
+        <S.Title>Junto Filmes</S.Title>
         <S.Description>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
           vel corrupti, voluptate totam consectetur iure tenetur optio culpa.
         </S.Description>
-        <S.Button onClick={handleFindMovie}>Procurar um filme</S.Button>
+        <S.Button onClick={handleFindMovie}>Search for a movie</S.Button>
       </S.Container>
 
-      <S.Image src={popcornImage} alt="Balde de pipoca roxo" />
+      <S.Image src={popcornImage} alt="Purple Popcorn Bucket" />
     </S.Wrapper>
   );
 };
